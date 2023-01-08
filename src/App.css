@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.search {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+.searchBar {
+  display: inline;
+  padding: 0.4rem 1rem;
+  background-color: rgba(95, 94, 94, 0.529);
+  border-radius: 1rem;
+}
+.searchBar:focus {
+  box-shadow: 1px 1px 12px 2px #ffffff2e;
+}
+.searchBar .searchIcon {
+  padding: 0px 0px 0 10px;
+  font-size: 20px;
+}
+.searchBar .input {
+  border: none;
+
+  font-size: 1.2rem;
+  background-color: transparent;
+}
+.searchBar .input:focus {
+  outline: none;
+}
+
+.searchBar .searchButton {
+  padding: 0;
+  background-color: transparent;
+}
+
+
+/* //movie card */
+.Searchresult {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.movieCard {
+  width: 200px;
+  padding: 5px;
+  background-color: rgba(57, 56, 56, 0.974);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 5%;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+}
+.moviePoster {
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+  object-fit: cover;
+}
+.details {
+  margin: 5px 5px;
+}
+.details .title {
+  font-size: 1rem;
+  font-weight: bold;
+  text-overflow: ellipsis;
+}
+/* //movie card animation  */
+.movieCard:hover{
+  box-shadow: inset 0px 0px 4px 0px;
+}
